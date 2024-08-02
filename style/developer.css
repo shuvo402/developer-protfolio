@@ -178,3 +178,25 @@ margin: 0px 0px 0px 0px;
     text-align: center;
     margin-top: 50px;
 }
+footer{
+    display: flex;
+    background-color: #fae0cd;
+    padding: 130px 150px;
+    margin-top: 50px;
+    gap: 100px;
+}
+.social-link a img{
+    width: 20px;
+    margin-right: 10px;
+}
+.footer-coloum{
+    width: 50%;
+}
+.contact input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    background-color: #fff;
+    width: 100%;
+    border: 0;
+}
