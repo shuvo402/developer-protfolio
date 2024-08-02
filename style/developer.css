@@ -46,8 +46,55 @@ nav ul li{
     /* align-items: center; */
 }
 .header{
-    background-color: #fff8f3;
+    background-color: #fae0cd;
+    background-image: url('../media/2fee7b9db300f3d7932499273b70dfc7.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
+    /* align-items: center; */
+    display: flex;
+    /* background-repeat: no-repeat; */
+    /* background-position: bottom right; */
+    /* background-size:100px; */
+    justify-content: space-between;
+}
+.profile-pic{
+    width: 350px;
+}
+.banner-des{
+    max-width: 500px;
+}
+.banner-greeting{
+    margin-bottom: 0px;
+    font-size: 45px;
+    color: #474747;
+
+}
+.banner-title{
+    margin: 5px 0px;
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-p{
+    margin-top: 20px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about{
+    margin: 80px 0px;
+    background-color: #fae0cd;
+    padding: 80px;
+    border-radius: 10px;
+}
+.section-des{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
